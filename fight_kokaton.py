@@ -139,7 +139,6 @@ class Beam:
         self.rct.centerx = bird.rct.centerx+bird.rct.width/2
         self.vx, self.vy = +5, 0
 
-
     def update(self, screen: pg.Surface):
         """
         ビームを速度ベクトルself.vx, self.vyに基づき移動させる
